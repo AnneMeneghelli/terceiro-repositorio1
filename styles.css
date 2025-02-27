@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+:root {
+    --cor-principal: #4a8b6d;
+    --cor1: #384b41;
+    --cor2: #9bb0a5;
+    --cor3: #4085af;
+    --cor4: #00547a;
+    --preto: #000000;
+    --Branco: #FFFFFF;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Calistoga';
+}
