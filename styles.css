@@ -6,6 +6,7 @@
     --cor2: #9bb0a5;
     --cor3: #4085af;
     --cor4: #00547a;
+    --cor5: #d3d3d3;
     --preto: #000000;
     --Branco: #FFFFFF;
 }
@@ -36,5 +37,5 @@ body {
 }
 
 .form-control {
-    background-color: var(--cor2);
+    background-color: var(--cor5);
 }
