@@ -16,13 +16,27 @@ body {
     font-family: 'Calistoga';
 }
 
+section {
+    padding-bottom: 5rem;
+}
+
+.display-4 {
+    text-shadow: -5 5px var(--cor4)
+}
+
+#conceitos {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+}
+
 #contato {
     background: var(--cor1);
     background-size: cover;
     padding: 4rem 0;
 }
 
-.formulario{
+.formulario {
     background-color: var(--Branco);
     padding: 2rem;
     border-radius: 10px;
