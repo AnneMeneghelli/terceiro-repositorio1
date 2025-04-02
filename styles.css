@@ -28,7 +28,18 @@ section {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
+    background: var(--cor5);
+    background-size: 180px 180px; /* Ajustar o tamanho */
 }
+
+#conceitos .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1; /* o conteúdo fica das imagens de background */
+}
+
 
 #contato {
     background: var(--cor1);
