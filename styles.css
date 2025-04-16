@@ -21,7 +21,7 @@ section {
 }
 
 header {
-    background-color: var(--Branco);
+    background-color: var(--cor1);
 }
 
 .nav-link {
@@ -48,7 +48,7 @@ header {
 }
 
 .botao-inicio {
-    background-color: var(--preto);
+    background-color: var(--cor4);
     border-radius: 30px;
     border: none;
     width: 14em;
