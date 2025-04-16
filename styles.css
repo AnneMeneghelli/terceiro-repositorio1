@@ -30,7 +30,7 @@ header {
 }
 
 .inicio-fundo {
-    background-image: url();
+    background-image: url(img/chesspieceswar.jpeg);
     background-size: cover;
     background-position: right;
     border-radius: 80px;
