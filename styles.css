@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
 :root {
-    --cor-principal: #4a8b6d;
     --cor1: #384b41;
     --cor2: #9bb0a5;
     --cor3: #4085af;
     --cor4: #00547a;
     --cor5: #d3d3d3;
     --preto: #000000;
-    --Branco: #FFFFFF;
+    --branco: #FFFFFF;
 }
 
 body {
@@ -84,7 +83,7 @@ header {
 }
 
 .formulario {
-    background-color: var(--Branco);
+    background-color: var(--branco);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px var(--cor3);
@@ -109,7 +108,7 @@ header {
 }
 
 .rotacao-botao {
-    
+    transform: rotate(-90deg);
     transform-origin: right center;
 }
 
@@ -125,4 +124,28 @@ header {
 
 .apresenta-lista {
     display: none;
+}
+
+
+/* site com as cores em contraste: */
+.alto-contraste {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario {
+    background-color: var(--cor4);
+    color: var(--branco);
+}
+
+.alto-contraste .nav-link {
+    color: var(--branco);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary {
+    background-color: var(--cor5);
 }
