@@ -24,7 +24,7 @@ header {
 }
 
 .nav-link {
-    color: var(--preto);
+    color: var(--branco);
     font-weight: 600;
 }
 
@@ -136,16 +136,28 @@ header {
 .alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario {
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     color: var(--branco);
 }
 
 .alto-contraste .nav-link {
-    color: var(--branco);
+    color: var(--preto);
 }
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary {
     background-color: var(--cor5);
+}
+
+.alto-contraste #conceitos {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--preto);
+}
+
+.alto-contraste .fundo-galeria {
+    background: none;
 }
